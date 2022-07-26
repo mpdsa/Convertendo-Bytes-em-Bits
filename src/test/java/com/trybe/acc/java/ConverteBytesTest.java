@@ -23,7 +23,7 @@ class ConverteBytesTest {
 	     ByteArrayInputStream bais = new ByteArrayInputStream(userInput.getBytes());
 	     System.setIn(bais);
 
-	     String esperado = "3 bytes correspodem a 24 bits";
+	     String esperado = "3 bytes correspondem a 24 bits";
 	     
 	     ByteArrayOutputStream baos = new ByteArrayOutputStream();
 	     PrintStream printStream = new PrintStream(baos);
